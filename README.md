@@ -6,7 +6,7 @@ In the folder `exercises` there is a file with the solution of each problem.
 
 If you run the application the result of the exercises is displayed in the `index.html` page instead of logging to the console output.
 
-This was built using CodeSandBox so its built with [parcel](https://parceljs.org/).
+This was built using CodeSandbox so its built with [parcel](https://parceljs.org/).
 
 ## Run locally
 

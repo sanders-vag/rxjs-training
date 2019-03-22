@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <ul id="result"></ul>
+      <ul>
+        <li class="ex">
+          <div class="ex-title">Exercise 05,06,07</div>
+          <div class="ex-data">
+            <label>Weight: </label>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="weight-slider"
+            />
+            <div id="weight-text">50</div>
+            <label>Height: </label>
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="height-slider"
+            />
+            <input type="text" id="height-edit-text" value="50" />
+            <div id="height-text">50</div>
+            <label>BMI:<span id="bmi-text">1</span></label>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
